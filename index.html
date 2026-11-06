@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== GOOGLE SEO ===== -->
+    <title>core.berry.10 // Tuzanesha Onesmus - Portfolio | Computer Scientist, Videographer & DJ in Kampala</title>
+    <meta name="description" content="Tuzanesha Onesmus aka core.berry.10 - Computer Scientist, Media Director, Videographer, DJ & Audio Specialist in Kampala, Uganda. Video directing, data recovery, Adobe editing, DJ & sound setup. Dreaming to work with the United Nations.">
+    <meta name="keywords" content="Tuzanesha Onesmus, core.berry.10, Berry portfolio, Kampala DJ, videographer Uganda, data recovery Kampala, computer scientist Uganda">
+    <meta name="author" content="Tuzanesha Onesmus">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://coreberry10.github.io/core/">
+    <!-- Open Graph for Google / WhatsApp / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="core.berry.10 // Tuzanesha Onesmus - Portfolio">
+    <meta property="og:description" content="Computer Scientist • Media Director • DJ & Audio Specialist | Kampala, Uganda">
+    <meta property="og:image" content="assets/_L6A1979.jpg">
+    <meta property="og:url" content="https://coreberry10.github.io/core/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="google-site-verification" content="ygskMEZzadinkSEJlB-PiCMr9IBTXXiyna0CT-YaZiM" />
+    <!-- Google Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Tuzanesha Onesmus",
+      "alternateName": "core.berry.10",
+      "jobTitle": "Computer Scientist, Videographer & DJ",
+      "url": "https://coreberry10.github.io/core/",
+      "image": "assets/_L6A1979.jpg",
+      "sameAs": ["https://www.instagram.com/core.berry.10","https://www.tiktok.com/@core.berry.10","https://www.linkedin.com/in/orec-one-1920152b0","https://www.facebook.com/core.berry.10"],
+      "address": {"@type":"PostalAddress","addressLocality":"Kampala","addressCountry":"UG"}
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/jpeg" href="assets/_L6A1979.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = { theme: { extend: { colors: { cyberBg:'#090b10', cyberCard:'rgba(18,24,38,0.65)', neonCyan:'#00f0ff', neonPurple:'#7000ff', neonPink:'#ff007f', neonBlue:'#0066ff' }, fontFamily:{ orbitron:['Orbitron','sans-serif'], sans:['Inter','sans-serif'] }, animation:{ 'pulse-glow':'pulseGlow 3s infinite alternate','float':'float 6s ease-in-out infinite' }, keyframes:{ pulseGlow:{'0%':{boxShadow:'0 0 15px rgba(0,240,255,0.3)'},'100%':{boxShadow:'0 0 30px rgba(112,0,255,0.6)'}}, float:{'0%,100%':{transform:'translateY(0px)'},'50%':{transform:'translateY(-12px)'}} } } } }
+    </script>
+    <style>
+        :root{ --bg:#090b10; --text:#e2e8f0; --card:rgba(15,21,37,0.65); --muted:#9ca3af; --border:rgba(0,240,255,0.15); }
+        [data-theme="light"]{ --bg:#f1f5f9; --text:#0f172a; --card:rgba(255,255,255,0.85); --muted:#475569; --border:rgba(0,102,255,0.2); }
+        body{ background-color:var(--bg); color:var(--text); overflow-x:hidden; font-family:'Inter',sans-serif; transition:background 0.3s, color 0.3s; }
+        [data-theme="light"] body{ background-color:#f1f5f9; }
+        ::-webkit-scrollbar{width:8px} ::-webkit-scrollbar-track{background:#090b10} ::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#00f0ff,#7000ff);border-radius:4px}
+        .glass-panel{ background:var(--card); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); border:1px solid var(--border); }
+        .glass-panel-hover:hover{ border-color:rgba(0,240,255,0.5); box-shadow:0 0 25px rgba(0,240,255,0.25); }
+        .glow-text-cyan{ text-shadow:0 0 10px rgba(0,240,255,0.6),0 0 20px rgba(0,240,255,0.3); }
+        .cyber-grid{ background-size:40px 40px; background-image:linear-gradient(to right,rgba(0,240,255,0.03) 1px,transparent 1px),linear-gradient(to bottom,rgba(0,240,255,0.03) 1px,transparent 1px); }
+        [data-theme="light"] .cyber-grid{ background-image:linear-gradient(to right,rgba(0,0,0,0.04) 1px,transparent 1px),linear-gradient(to bottom,rgba(0,0,0,0.04) 1px,transparent 1px); }
+        .nav-link.active{ color:#00f0ff; background:rgba(0,240,255,0.12); border-bottom:2px solid #00f0ff; }
+        [data-fs-success]:empty,[data-fs-error]:empty,.fs-field-error:empty{display:none}
+        .gallery-filter-btn.active{ color:#00f0ff !important; border-color:rgba(0,240,255,0.4) !important; background-color:rgba(0,240,255,0.1) !important; }
+        .page-section{ scroll-margin-top:90px; }
+        button[type="submit"]:disabled{ opacity:0.55; cursor:not-allowed; }
+        .theme-btn{ transition:all .3s; } [data-theme="light"] .text-gray-400{ color:#475569 !important; } [data-theme="light"] .text-gray-300{ color:#334155 !important; } [data-theme="light"] .text-white{ color:#0f172a !important; }
+    </style>
+</head>
+<body class="cyber-grid relative min-h-screen selection:bg-neonPink selection:text-white">
+    <div class="fixed top-[-10%] left-[-10%] w-[450px] h-[450px] bg-neonCyan/15 rounded-full blur-[140px] pointer-events-none"></div>
+    <div class="fixed bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-neonPurple/20 rounded-full blur-[160px] pointer-events-none"></div>
+
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 glass-panel border-b border-cyan-500/20 px-4 lg:px-8 py-3">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <a href="#home" onclick="showSection('home')" class="flex items-center gap-3 group">
+                <div class="relative w-10 h-10 flex items-center justify-center rounded-xl bg-gradient-to-tr from-neonPurple via-neonPink to-neonCyan p-[2px] group-hover:scale-110 transition-transform">
+                    <div class="w-full h-full bg-[#090b10] rounded-[10px] flex items-center justify-center"><i class="fa-solid fa-atom text-neonCyan text-xl group-hover:rotate-180 transition-transform duration-700"></i></div>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-orbitron font-extrabold text-lg text-transparent bg-clip-text bg-gradient-to-r from-neonCyan via-white to-neonPink tracking-wider">core.berry.10</span>
+                    <span class="text-[10px] text-cyan-400/70 tracking-widest uppercase font-mono">Tuzanesha Onesmus</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-1 glass-panel px-3 py-1.5 rounded-full border border-cyan-500/20">
+                <button onclick="showSection('home')" id="nav-home" class="nav-link active px-4 py-1.5 rounded-full text-xs font-orbitron font-semibold uppercase tracking-wider text-gray-300 hover:text-neonCyan">Home</button>
+                <button onclick="showSection('about')" id="nav-about" class="nav-link px-4 py-1.5 rounded-full text-xs font-orbitron font-semibold uppercase tracking-wider text-gray-300 hover:text-neonCyan">About & UN Vision</button>
+                <button onclick="showSection('skills')" id="nav-skills" class="nav-link px-4 py-1.5 rounded-full text-xs font-orbitron font-semibold uppercase tracking-wider text-gray-300 hover:text-neonCyan">Skills & Tech</button>
+                <button onclick="showSection('gallery')" id="nav-gallery" class="nav-link px-4 py-1.5 rounded-full text-xs font-orbitron font-semibold uppercase tracking-wider text-gray-300 hover:text-neonCyan">Showcase</button>
+                <button onclick="showSection('contact')" id="nav-contact" class="nav-link px-4 py-1.5 rounded-full text-xs font-orbitron font-semibold uppercase tracking-wider text-gray-300 hover:text-neonCyan">Connect</button>
+            </nav>
+            <div class="flex items-center gap-2">
+                <!-- LIGHT / DARK BUTTON -->
+                <button id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light dark theme" class="theme-btn w-10 h-10 rounded-full glass-panel flex items-center justify-center text-lg text-amber-400 hover:scale-110 border border-cyan-500/30">
+                    <i id="theme-icon" class="fa-solid fa-sun"></i>
+                </button>
+                <a href="#contact" onclick="showSection('contact')" class="hidden lg:flex px-5 py-2 rounded-lg bg-gradient-to-r from-neonCyan to-neonBlue text-white font-orbitron font-bold text-xs uppercase tracking-wider hover:shadow-[0_0_20px_rgba(0,240,255,0.6)]"><i class="fa-solid fa-paper-plane mr-2"></i>Hire Me</a>
+                <button onclick="toggleMobileMenu()" class="md:hidden text-cyan-400 p-2 rounded-lg hover:bg-cyan-500/10 text-xl"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden mt-3 pt-3 border-t border-cyan-500/20 flex flex-col gap-2 pb-2">
+            <button onclick="showSection('home');toggleMobileMenu();" class="text-left px-4 py-2 text-sm font-orbitron text-gray-200 hover:bg-cyan-500/10 rounded-lg">Home</button>
+            <button onclick="showSection('about');toggleMobileMenu();" class="text-left px-4 py-2 text-sm font-orbitron text-gray-200 hover:bg-cyan-500/10 rounded-lg">About & UN Vision</button>
+            <button onclick="showSection('skills');toggleMobileMenu();" class="text-left px-4 py-2 text-sm font-orbitron text-gray-200 hover:bg-cyan-500/10 rounded-lg">Skills & Technology</button>
+            <button onclick="showSection('gallery');toggleMobileMenu();" class="text-left px-4 py-2 text-sm font-orbitron text-gray-200 hover:bg-cyan-500/10 rounded-lg">Multimedia Showcase</button>
+            <button onclick="showSection('contact');toggleMobileMenu();" class="text-left px-4 py-2 text-sm font-orbitron text-gray-200 hover:bg-cyan-500/10 rounded-lg">Connect & Socials</button>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 lg:px-8 py-8 space-y-16">
+        <!-- HERO -->
+        <section id="home" class="page-section min-h-[82vh] flex flex-col justify-center py-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel border border-neonCyan/30 text-neonCyan text-xs font-mono tracking-widest uppercase"><span class="w-2 h-2 rounded-full bg-neonCyan animate-ping"></span>Status: Available for Tech, Media & Production Projects</div>
+                    <h1 class="font-orbitron text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-white">TUZANESHA ONESMUS<span class="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-neonCyan via-neonPurple to-neonPink glow-text-cyan">// CORE.BERRY.10</span></h1>
+                    <p class="text-lg sm:text-xl font-light text-cyan-100/80 max-w-2xl">Computer Scientist <span class="text-neonCyan">•</span> Media Director & Videographer <span class="text-neonPink">•</span> DJ & Audio Specialist</p>
+                    <p class="text-sm text-gray-400 max-w-xl leading-relaxed">Combining Computer Science technical expertise with high-impact media production. Specializing in video direction (TikTok & music videos), disk data recovery, Adobe Master Suite editing, live sound setup, and party DJ performances.</p>
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
+                        <button onclick="showSection('gallery')" class="px-7 py-3.5 rounded-xl bg-gradient-to-r from-neonCyan to-neonBlue text-white font-orbitron font-bold text-sm uppercase tracking-wider hover:shadow-[0_0_25px_rgba(0,240,255,0.7)] hover:-translate-y-1 transition-all"><i class="fa-solid fa-photo-film mr-2"></i>Explore Showcase</button>
+                        <button onclick="showSection('contact')" class="px-7 py-3.5 rounded-xl glass-panel text-white font-orbitron font-bold text-sm uppercase tracking-wider border border-neonPurple/50 hover:border-neonPink hover:bg-neonPurple/20 hover:-translate-y-1 transition-all"><i class="fa-solid fa-comments mr-2"></i>Connect Now</button>
+                    </div>
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-cyan-500/20 max-w-md mx-auto lg:mx-0">
+                        <div class="text-center lg:text-left"><div class="flex justify-center lg:justify-start text-amber-400 text-sm gap-1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><span class="text-xs text-gray-400 uppercase tracking-wider mt-1 block">5-Star Rated Skillset</span></div>
+                        <div class="text-center lg:text-left"><span class="block font-orbitron text-2xl font-bold text-neonPurple">100%</span><span class="text-xs text-gray-400 uppercase tracking-wider">CS & Audio-Visual</span></div>
+                        <div class="text-center lg:text-left"><span class="block font-orbitron text-2xl font-bold text-neonPink">UN</span><span class="text-xs text-gray-400 uppercase tracking-wider">Career Dream</span></div>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-72 h-80 sm:w-80 sm:h-96 rounded-2xl glass-panel p-3 border border-cyan-500/30 shadow-2xl animate-float group">
+                        <div class="w-full h-full rounded-xl overflow-hidden bg-slate-900/90 relative flex flex-col items-center justify-center text-center border border-slate-700 group-hover:border-neonCyan"><img src="assets/_L6A1979.jpg" alt="Tuzanesha Onesmus - core.berry.10 profile picture" class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100"></div>
+                        <div class="absolute -bottom-5 left-1/2 transform -translate-x-1/2 glass-panel px-4 py-1.5 rounded-full border border-neonCyan text-neonCyan text-xs font-mono font-bold tracking-wider whitespace-nowrap"><i class="fa-solid fa-shield-halved mr-1.5"></i>CORE.BERRY.10</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="page-section py-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 space-y-3"><h2 class="font-orbitron text-3xl font-extrabold text-white tracking-wide">ABOUT ME <span class="text-neonCyan">&</span> UN ASPIRATION</h2><div class="h-1 w-24 bg-gradient-to-r from-neonCyan via-neonPurple to-neonPink mx-auto rounded-full"></div><p class="text-gray-400 text-sm">Merging Technical Computer Science and Audiovisual Creativity</p></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="glass-panel rounded-2xl p-6 sm:p-8 glass-panel-hover"><span class="text-xs font-mono text-neonCyan uppercase tracking-widest">// Profile Overview</span><h3 class="font-orbitron text-xl font-bold text-white mb-4 mt-2">Computer Scientist & Creative Director</h3><p class="text-gray-300 text-sm leading-relaxed mb-4">My name is <strong class="text-neonCyan">Tuzanesha Onesmus</strong>, branded online as <strong class="text-neonPink">core.berry.10</strong>. Having studied Computer Science, I possess strong analytical, technical, and data management skills — including specialized techniques in recovering lost files from corrupted disk drives and memory cards.</p><p class="text-gray-300 text-sm leading-relaxed">Simultaneously, I have built extensive practical expertise across video directing, Adobe creative applications, music production (piano and guitar), flyer graphic design, live sound setup, and party VirtualDJ hosting.</p></div>
+                <div class="glass-panel rounded-2xl p-6 sm:p-8 border-neonPurple/30 glass-panel-hover"><span class="text-xs font-mono text-neonPink uppercase tracking-widest">// Career Goal</span><h3 class="font-orbitron text-xl font-bold text-white mb-4 mt-2">My Dream: United Nations (UN)</h3><p class="text-gray-300 text-sm leading-relaxed mb-4">Ever since growing up, my ultimate ambition has been to work with the <strong class="text-neonPink">United Nations (UN)</strong>. I aim to leverage my computer science background and communication/media mastery to contribute to international development, digital infrastructure, and global humanitarian outreach.</p><div class="p-4 rounded-xl bg-neonPurple/10 border border-neonPurple/30 text-xs text-purple-200"><i class="fa-solid fa-quote-left text-neonPurple mr-2"></i>Although I haven't reached the UN yet, I firmly believe that through relentless learning, technical excellence, and dedication, that dream will work out.</div></div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="page-section py-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 space-y-3"><h2 class="font-orbitron text-3xl font-extrabold text-white tracking-wide">SKILLS <span class="text-neonCyan">&</span> TECHNOLOGICAL CAPABILITIES</h2><div class="h-1 w-24 bg-gradient-to-r from-neonCyan via-neonPurple to-neonPink mx-auto rounded-full"></div></div>
+            <div id="skills-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </section>
+
+        <!-- GALLERY -->
+        <section id="gallery" class="page-section py-8">
+            <div class="text-center max-w-3xl mx-auto mb-8 space-y-3"><h2 class="font-orbitron text-3xl font-extrabold text-white tracking-wide">MULTIMEDIA <span class="text-neonPink">SHOWCASE</span></h2><div class="h-1 w-24 bg-gradient-to-r from-neonCyan via-neonPurple to-neonPink mx-auto rounded-full"></div><p class="text-gray-400 text-sm">Videos, photography, flyers, and audio sessions</p></div>
+            <div class="flex flex-wrap justify-center gap-2 mb-8">
+                <button onclick="filterGallery('all',event)" class="gallery-filter-btn active px-4 py-2 rounded-lg glass-panel text-xs font-orbitron text-gray-300 border border-slate-700 hover:text-neonCyan">All Projects</button>
+                <button onclick="filterGallery('videos',event)" class="gallery-filter-btn px-4 py-2 rounded-lg glass-panel text-xs font-orbitron text-gray-300 border border-slate-700 hover:text-neonCyan">Video & Directing</button>
+                <button onclick="filterGallery('photos',event)" class="gallery-filter-btn px-4 py-2 rounded-lg glass-panel text-xs font-orbitron text-gray-300 border border-slate-700 hover:text-neonCyan">Photography</button>
+                <button onclick="filterGallery('flyers',event)" class="gallery-filter-btn px-4 py-2 rounded-lg glass-panel text-xs font-orbitron text-gray-300 border border-slate-700 hover:text-neonCyan">Flyers & Graphics</button>
+                <button onclick="filterGallery('audio',event)" class="gallery-filter-btn px-4 py-2 rounded-lg glass-panel text-xs font-orbitron text-gray-300 border border-slate-700 hover:text-neonCyan">DJ & Music</button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="gallery-item videos glass-panel rounded-2xl overflow-hidden glass-panel-hover group"><div class="h-48 bg-slate-900 relative overflow-hidden flex items-center justify-center"><img src="https://placehold.co/600x400/0f172a/00f0ff?text=TikTok+%26+Music+Video+Directing" alt="Video Directing" class="w-full h-full object-cover group-hover:scale-105 transition-transform opacity-80"><span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-neonPink/80 text-white text-[10px] font-orbitron uppercase">Video Directing</span></div><div class="p-5"><h4 class="font-orbitron text-base font-bold text-white mb-2">Short Form & Music Video Direction</h4><p class="text-xs text-gray-400 mb-3">Directing, shooting, and editing TikTok videos and music clips.</p></div></div>
+                <div class="gallery-item photos glass-panel rounded-2xl overflow-hidden glass-panel-hover group"><div class="h-48 bg-slate-900 relative overflow-hidden flex items-center justify-center"><img src="https://placehold.co/600x400/0f172a/7000ff?text=Photography+%26+Editing" alt="Photography" class="w-full h-full object-cover group-hover:scale-105 transition-transform opacity-80"><span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-neonPurple/80 text-white text-[10px] font-orbitron uppercase">Photography</span></div><div class="p-5"><h4 class="font-orbitron text-base font-bold text-white mb-2">Portrait & Event Photography</h4><p class="text-xs text-gray-400 mb-3">High-resolution event framing, portraiture, and color-grading.</p></div></div>
+                <div class="gallery-item flyers glass-panel rounded-2xl overflow-hidden glass-panel-hover group"><div class="h-48 bg-slate-900 relative overflow-hidden flex items-center justify-center"><img src="https://placehold.co/600x400/0f172a/ff007f?text=Flyers+%26+Graphic+Design" alt="Flyer Design" class="w-full h-full object-cover group-hover:scale-105 transition-transform opacity-80"><span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-neonCyan/80 text-white text-[10px] font-orbitron uppercase">Flyers & Graphics</span></div><div class="p-5"><h4 class="font-orbitron text-base font-bold text-white mb-2">Party & Brand Flyer Designs</h4><p class="text-xs text-gray-400 mb-3">Creative flyer graphics for social media and party events.</p></div></div>
+                <div class="gallery-item audio glass-panel rounded-2xl overflow-hidden glass-panel-hover group"><div class="h-48 bg-slate-900 relative overflow-hidden flex items-center justify-center"><img src="https://placehold.co/600x400/0f172a/0066ff?text=VirtualDJ+Party+Mixes" alt="Virtual DJ" class="w-full h-full object-cover group-hover:scale-105 transition-transform opacity-80"><span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-neonBlue/80 text-white text-[10px] font-orbitron uppercase">Virtual DJ</span></div><div class="p-5"><h4 class="font-orbitron text-base font-bold text-white mb-2">Live VirtualDJ Party Sets</h4><p class="text-xs text-gray-400 mb-3">Seamless transitions, beat-matching, and crowd control.</p></div></div>
+                <div class="gallery-item all glass-panel rounded-2xl overflow-hidden glass-panel-hover group"><div class="h-48 bg-slate-900 relative overflow-hidden flex items-center justify-center"><img src="https://placehold.co/600x400/0f172a/00f0ff?text=Data+Recovery+Services" alt="Data Recovery" class="w-full h-full object-cover group-hover:scale-105 transition-transform opacity-80"><span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-neonCyan/80 text-white text-[10px] font-orbitron uppercase">CS & Data</span></div><div class="p-5"><h4 class="font-orbitron text-base font-bold text-white mb-2">Hard Drive & SD File Recovery</h4><p class="text-xs text-gray-400 mb-3">Restoring lost documents, photos, and video from corrupted drives.</p></div></div>
+                <div class="gallery-item audio glass-panel rounded-2xl overflow-hidden glass-panel-hover group"><div class="h-48 bg-slate-900 relative overflow-hidden flex items-center justify-center"><img src="https://placehold.co/600x400/0f172a/7000ff?text=Sound+Systems+%26+Mixers" alt="Sound Systems" class="w-full h-full object-cover group-hover:scale-105 transition-transform opacity-80"><span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-neonPurple/80 text-white text-[10px] font-orbitron uppercase">Sound Hardware</span></div><div class="p-5"><h4 class="font-orbitron text-base font-bold text-white mb-2">Hardware Mixer & Speaker Setup</h4><p class="text-xs text-gray-400 mb-3">Connecting and tuning speakers, mics, mixers, and sound routing.</p></div></div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="page-section py-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 space-y-3"><h2 class="font-orbitron text-3xl font-extrabold text-white tracking-wide">CONNECT <span class="text-neonCyan">&</span> ONLINE PLATFORMS</h2><div class="h-1 w-24 bg-gradient-to-r from-neonCyan via-neonPurple to-neonPink mx-auto rounded-full"></div><p class="text-gray-400 text-sm">Reach out directly or connect across my official social channels</p></div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
+                <a href="https://wa.me/250721027524?text=Hi%2C%20I%20found%20you%20through%20your%20portfolio" target="_blank" rel="noopener" class="glass-panel p-4 rounded-xl flex flex-col items-center gap-2 hover:border-emerald-400 hover:bg-emerald-500/10 group"><i class="fa-brands fa-whatsapp text-2xl text-emerald-400 group-hover:scale-125 transition-transform"></i><span class="text-xs font-orbitron text-gray-200">WhatsApp</span></a>
+                <a href="https://www.instagram.com/core.berry.10" target="_blank" rel="noopener" class="glass-panel p-4 rounded-xl flex flex-col items-center gap-2 hover:border-pink-400 hover:bg-pink-500/10 group"><i class="fa-brands fa-instagram text-2xl text-pink-400 group-hover:scale-125 transition-transform"></i><span class="text-xs font-orbitron text-gray-200">Instagram</span></a>
+                <a href="https://www.tiktok.com/@core.berry.10" target="_blank" rel="noopener" class="glass-panel p-4 rounded-xl flex flex-col items-center gap-2 hover:border-cyan-400 hover:bg-cyan-500/10 group"><i class="fa-brands fa-tiktok text-2xl text-cyan-400 group-hover:scale-125 transition-transform"></i><span class="text-xs font-orbitron text-gray-200">TikTok</span></a>
+                <a href="https://www.linkedin.com/in/orec-one-1920152b0" target="_blank" rel="noopener" class="glass-panel p-4 rounded-xl flex flex-col items-center gap-2 hover:border-blue-400 hover:bg-blue-500/10 group"><i class="fa-brands fa-linkedin-in text-2xl text-blue-400 group-hover:scale-125 transition-transform"></i><span class="text-xs font-orbitron text-gray-200">LinkedIn</span></a>
+                <a href="https://www.facebook.com/core.berry.10" target="_blank" rel="noopener" class="glass-panel p-4 rounded-xl flex flex-col items-center gap-2 hover:border-indigo-400 hover:bg-indigo-500/10 group"><i class="fa-brands fa-facebook-f text-2xl text-indigo-400 group-hover:scale-125 transition-transform"></i><span class="text-xs font-orbitron text-gray-200">Facebook</span></a>
+                <a href="https://www.snapchat.com/add/coreberry.10" target="_blank" rel="noopener" class="glass-panel p-4 rounded-xl flex flex-col items-center gap-2 hover:border-yellow-400 hover:bg-yellow-500/10 group"><i class="fa-brands fa-snapchat text-2xl text-yellow-300 group-hover:scale-125 transition-transform"></i><span class="text-xs font-orbitron text-gray-200">Snapchat</span></a>
+            </div>
+            <div class="max-w-2xl mx-auto glass-panel p-6 sm:p-8 rounded-2xl border border-cyan-500/20">
+                <h3 class="font-orbitron text-xl font-bold text-white mb-6 text-center">Send a Direct Message</h3>
+                <div data-fs-success role="status" class="mb-4 p-3 rounded-lg text-center text-xs font-orbitron bg-emerald-500/20 text-emerald-300 border border-emerald-500/40"></div>
+                <div data-fs-error role="alert" class="mb-4 p-3 rounded-lg text-center text-xs font-orbitron bg-red-500/20 text-red-300 border border-red-500/40"></div>
+                <form id="contact-form" action="https://formspree.io/f/mvkkynba" method="POST" class="space-y-4">
+                    <input type="hidden" name="_subject" value="New message from core.berry.10 portfolio">
+                    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;">
+                    <div><label class="block text-xs font-orbitron text-gray-300 mb-1">YOUR NAME</label><input type="text" name="name" required placeholder="John Doe" class="w-full bg-[#090b10] border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-neonCyan"></div>
+                    <div><label class="block text-xs font-orbitron text-gray-300 mb-1">EMAIL ADDRESS</label><input type="email" name="email" required placeholder="john@example.com" class="w-full bg-[#090b10] border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-neonCyan"></div>
+                    <div><label class="block text-xs font-orbitron text-gray-300 mb-1">MESSAGE / PROJECT DETAILS</label><textarea name="message" rows="4" required placeholder="Let's collaborate on video production, DJing, or technical projects..." class="w-full bg-[#090b10] border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-neonCyan"></textarea></div>
+                    <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-neonCyan via-neonPurple to-neonPink text-white font-orbitron font-bold text-xs uppercase tracking-wider hover:opacity-90 shadow-lg"><i class="fa-solid fa-paper-plane mr-2"></i>Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="border-t border-cyan-500/20 glass-panel py-8 mt-16 text-center"><div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4"><div class="flex items-center gap-2"><span class="font-orbitron font-extrabold text-neonCyan">core.berry.10</span><span class="text-xs text-gray-400">| Tuzanesha Onesmus</span></div><p class="text-xs text-gray-400">&copy; <span id="year-copy"></span> All rights reserved. Crafted with Computer Science & Audio-Visual Excellence.</p></div></footer>
+
+    <script>
+        const skillsData=[{title:"Computer Science & Software Development",icon:"fa-code",color:"text-neonCyan",border:"border-cyan-500/30",description:"Problem solving, software algorithms, web portals, and single-page apps.",items:["Algorithm Design","Single Page Applications (SPAs)","Landing & Business Websites","Interactive Portfolios"]},{title:"Data Recovery",icon:"fa-hard-drive",color:"text-neonPink",border:"border-pink-500/30",description:"Specialized file recovery for lost, deleted, or corrupted storage.",items:["Disk Drives (HDD/SSD)","Memory Cards (SD/MicroSD)","USB Drives","Partition Recovery"]},{title:"Adobe Master Collection",icon:"fa-layer-group",color:"text-neonPurple",border:"border-purple-500/30",description:"Advanced photo editing, motion graphics, and video editing.",items:["Adobe After Effects","Adobe Premiere Pro","Adobe Photoshop","Adobe Illustrator"]},{title:"Videography & Video Directing",icon:"fa-video",color:"text-neonCyan",border:"border-cyan-500/30",description:"Directing creative concepts, music video shoots, and TikTok content.",items:["TikTok Short-Form Directing","Music Video Direction","Camera Operation","Color Grading & FX"]},{title:"DJing & VirtualDJ Performance",icon:"fa-compact-disc",color:"text-neonBlue",border:"border-blue-500/30",description:"VirtualDJ mastery for live party crowds, events, and club sets.",items:["VirtualDJ Mastery","Seamless Transition Mixing","Party Crowd Control","Live Playlist Curation"]},{title:"Sound System Setup & Audio Hardware",icon:"fa-sliders",color:"text-neonPink",border:"border-pink-500/30",description:"Connecting and configuring physical sound equipment for live events.",items:["High-Power Speakers","Wireless Microphones","Hardware Audio Mixers","Cable & Routing Setup"]},{title:"Music Production & Instruments",icon:"fa-guitar",color:"text-neonPurple",border:"border-purple-500/30",description:"Music production and live performance skills.",items:["Piano Keyboards","Acoustic & Electric Guitar","Audio Beat Making","Arrangement & Mix"]},{title:"Graphic Design & Flyers",icon:"fa-palette",color:"text-amber-400",border:"border-amber-500/30",description:"Eye-catching party flyers, event posters, and promotional graphics.",items:["Event Flyer Design","Social Media Graphics","Visual Branding","Print Ready Layouts"]}];
+        function renderSkills(){ const c=document.getElementById('skills-container'); c.innerHTML=skillsData.map(s=>`<div class="glass-panel p-6 rounded-2xl border ${s.border} glass-panel-hover"><div class="flex items-center justify-between mb-4"><div class="w-10 h-10 rounded-xl bg-[#090b10] border border-slate-700 flex items-center justify-center ${s.color} text-lg"><i class="fa-solid ${s.icon}"></i></div><div class="flex text-amber-400 text-xs gap-1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div></div><h3 class="font-orbitron text-base font-bold text-white mb-2">${s.title}</h3><p class="text-xs text-gray-400 mb-4 leading-relaxed">${s.description}</p><div class="space-y-1.5 pt-2 border-t border-slate-800">${s.items.map(i=>`<div class="flex items-center gap-2 text-xs text-gray-300"><i class="fa-solid fa-circle-check ${s.color} text-[10px]"></i><span>${i}</span></div>`).join('')}</div></div>`).join(''); }
+        function showSection(id){ document.querySelectorAll('.nav-link').forEach(b=>b.classList.remove('active')); const a=document.getElementById(`nav-${id}`); if(a)a.classList.add('active'); const t=document.getElementById(id); if(t)t.scrollIntoView({behavior:'smooth'}); }
+        function toggleMobileMenu(){ document.getElementById('mobile-menu').classList.toggle('hidden'); }
+        function filterGallery(cat,event){ document.querySelectorAll('.gallery-filter-btn').forEach(b=>b.classList.remove('active')); if(event)event.currentTarget.classList.add('active'); document.querySelectorAll('.gallery-item').forEach(item=>{ item.style.display=(cat==='all'||item.classList.contains(cat))?'':'none'; }); }
+        // THEME TOGGLE - Light / Dark
+        function toggleTheme(){
+            const html=document.documentElement;
+            const isLight = html.getAttribute('data-theme')==='light';
+            const next = isLight ? 'dark' : 'light';
+            html.setAttribute('data-theme', next);
+            localStorage.setItem('core-theme', next);
+            document.getElementById('theme-icon').className = next==='light' ? 'fa-solid fa-moon text-indigo-600' : 'fa-solid fa-sun';
+        }
+        function loadTheme(){
+            const saved = localStorage.getItem('core-theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', saved);
+            document.getElementById('theme-icon').className = saved==='light' ? 'fa-solid fa-moon text-indigo-600' : 'fa-solid fa-sun';
+        }
+        window.addEventListener('DOMContentLoaded',()=>{ renderSkills(); loadTheme(); document.getElementById('year-copy').textContent=new Date().getFullYear(); });
+    </script>
+    <script> window.formspree = window.formspree || function(){ (formspree.q=formspree.q||[]).push(arguments); }; formspree('initForm',{formElement:'#contact-form',formId:'mvkkynba'}); </script>
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+</body>
+</html>
