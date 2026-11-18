@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://coreberry10.is-a.dev/sitemap.xml
